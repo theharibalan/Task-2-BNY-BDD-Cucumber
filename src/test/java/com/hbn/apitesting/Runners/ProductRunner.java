@@ -23,14 +23,15 @@ import java.sql.Statement;
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports/report.html",
-                "json:target/cucumber-reports/report.json"
+                "json:target/cucumber-reports/report.json",
+                "json:target/cucumber.json"
         },
         monochrome = true,
         dryRun = true
 )
 
 //forcing to run in the specified order
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ProductRunner {
 
     @AfterClass

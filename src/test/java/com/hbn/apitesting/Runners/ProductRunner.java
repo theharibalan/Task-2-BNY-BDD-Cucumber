@@ -26,7 +26,7 @@ import java.sql.Statement;
                 "json:target/cucumber-reports/report.json",
                 "json:target/cucumber.json"
         },
-        monochrome = true,
+        monochrome = true, // single hue -> The state of being in a single color
         dryRun = true
 )
 
